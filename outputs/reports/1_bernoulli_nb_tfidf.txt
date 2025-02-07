@@ -1,0 +1,61 @@
+Models: MultinomialNB() 
+
+Best Parameters: 
+{'alpha': 0.5, 'fit_prior': False} 
+
+Best Score: 
+0.8402126018977809 
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.60      0.34      0.44       487
+           1       0.88      0.95      0.91      2435
+
+    accuracy                           0.85      2922
+   macro avg       0.74      0.65      0.68      2922
+weighted avg       0.83      0.85      0.84      2922
+ 
+
+Models: MultinomialNB() 
+
+Best Parameters: 
+{'alpha': 0.5, 'fit_prior': True} 
+
+Best Score: 
+0.7597756209122982 
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.69      0.97      0.81       487
+           1       0.85      0.91      0.88       487
+           2       0.80      0.84      0.82       487
+           3       0.65      0.35      0.46       487
+           4       0.63      0.50      0.56       487
+           5       0.80      0.94      0.87       487
+
+    accuracy                           0.75      2922
+   macro avg       0.74      0.75      0.73      2922
+weighted avg       0.74      0.75      0.73      2922
+ 
+
+Models: MultinomialNB() 
+
+Best Parameters: 
+{'alpha': 0.5, 'fit_prior': False} 
+
+Best Score: 
+0.8402126018977809 
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.60      0.34      0.44       487
+           1       0.88      0.95      0.91      2435
+
+    accuracy                           0.85      2922
+   macro avg       0.74      0.65      0.68      2922
+weighted avg       0.83      0.85      0.84      2922
+ 
+

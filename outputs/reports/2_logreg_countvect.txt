@@ -1,0 +1,42 @@
+Models: LogisticRegression(random_state=42) 
+
+Best Parameters: 
+{'C': 10, 'class_weight': None, 'penalty': 'l2', 'solver': 'sag'} 
+
+Best Score: 
+0.858743080255006 
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.56      0.47      0.51       487
+           1       0.90      0.92      0.91      2435
+
+    accuracy                           0.85      2922
+   macro avg       0.73      0.70      0.71      2922
+weighted avg       0.84      0.85      0.84      2922
+ 
+
+Models: LogisticRegression(multi_class='multinomial', random_state=42) 
+
+Best Parameters: 
+{'C': 0.1, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'} 
+
+Best Score: 
+0.8350101843910807 
+
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96       487
+           1       0.99      0.98      0.98       487
+           2       0.94      0.80      0.87       487
+           3       0.59      0.58      0.58       487
+           4       0.61      0.72      0.66       487
+           5       0.96      0.94      0.95       487
+
+    accuracy                           0.83      2922
+   macro avg       0.84      0.83      0.83      2922
+weighted avg       0.84      0.83      0.83      2922
+ 
+

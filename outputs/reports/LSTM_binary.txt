@@ -1,0 +1,70 @@
+Models: <Functional name=functional_3, built=True> 
+
+Best Parameters: 
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.51      0.49      0.50       487
+           1       0.90      0.90      0.90      2435
+
+    accuracy                           0.84      2922
+   macro avg       0.70      0.70      0.70      2922
+weighted avg       0.83      0.84      0.84      2922
+ 
+
+Models: <Functional name=functional_39, built=True> 
+
+Best Parameters: 
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.50      0.54      0.52       487
+           1       0.91      0.89      0.90      2435
+
+    accuracy                           0.83      2922
+   macro avg       0.70      0.72      0.71      2922
+weighted avg       0.84      0.83      0.84      2922
+ 
+
+Models: <Functional name=functional_51, built=True> 
+
+Best Parameters: 
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.52      0.51      0.52       487
+           1       0.90      0.91      0.90      2435
+
+    accuracy                           0.84      2922
+   macro avg       0.71      0.71      0.71      2922
+weighted avg       0.84      0.84      0.84      2922
+ 
+
+Models: <Functional name=functional_3, built=True> 
+
+Best Parameters: 
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.51      0.55      0.53       487
+           1       0.91      0.89      0.90      2435
+
+    accuracy                           0.84      2922
+   macro avg       0.71      0.72      0.71      2922
+weighted avg       0.84      0.84      0.84      2922
+ 
+
+Models: <Functional name=functional_3, built=True> 
+
+Best Parameters: 
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.56      0.52      0.54       487
+           1       0.91      0.92      0.91      2435
+
+    accuracy                           0.85      2922
+   macro avg       0.73      0.72      0.73      2922
+weighted avg       0.85      0.85      0.85      2922
+ 
+

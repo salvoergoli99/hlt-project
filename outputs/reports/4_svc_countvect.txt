@@ -1,0 +1,98 @@
+Model: SVC()
+Best Parameters: {'C': 10, 'kernel': 'rbf', 'max_iter': 100000}
+Best Score: 0.8649053477508606
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.45      0.53       487
+           1       0.90      0.95      0.92      2435
+
+    accuracy                           0.87      2922
+   macro avg       0.77      0.70      0.72      2922
+weighted avg       0.85      0.87      0.86      2922
+
+Model: SVC()
+Best Parameters: {'C': 1, 'kernel': 'rbf', 'max_iter': 100000}
+Best Score: 0.8417562503776839
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.95      0.96       487
+           1       0.98      0.98      0.98       487
+           2       0.95      0.80      0.87       487
+           3       0.61      0.57      0.59       487
+           4       0.60      0.76      0.67       487
+           5       0.96      0.93      0.95       487
+
+    accuracy                           0.83      2922
+   macro avg       0.84      0.83      0.84      2922
+weighted avg       0.84      0.83      0.84      2922
+
+Model: 4_svc_countvect
+Best Parameters: {'C': 10, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': 100000, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.45      0.53       487
+           1       0.90      0.95      0.92      2435
+
+    accuracy                           0.87      2922
+   macro avg       0.77      0.70      0.72      2922
+weighted avg       0.85      0.87      0.86      2922
+
+Model: 4_svc_countvect
+Best Parameters: {'C': 1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': 100000, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.95      0.96       487
+           1       0.98      0.98      0.98       487
+           2       0.95      0.80      0.87       487
+           3       0.61      0.57      0.59       487
+           4       0.60      0.76      0.67       487
+           5       0.96      0.93      0.95       487
+
+    accuracy                           0.83      2922
+   macro avg       0.84      0.83      0.84      2922
+weighted avg       0.84      0.83      0.84      2922
+
+Model: 4_svc_countvect
+Best Parameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.6, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.05, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 30, 'max_leaves': None, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 500, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': 42, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': 0.7, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.48      0.55       487
+           1       0.90      0.95      0.92      2435
+
+    accuracy                           0.87      2922
+   macro avg       0.77      0.71      0.74      2922
+weighted avg       0.86      0.87      0.86      2922
+
+Model: 4_svc_countvect
+Best Parameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.6, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.05, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 30, 'max_leaves': None, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 500, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': 42, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': 0.7, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.48      0.55       487
+           1       0.90      0.95      0.92      2435
+
+    accuracy                           0.87      2922
+   macro avg       0.77      0.71      0.74      2922
+weighted avg       0.86      0.87      0.86      2922
+
+Model: 4_svc_countvect
+Best Parameters: {'objective': 'multi:softprob', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.6, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.1, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.05, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 30, 'max_leaves': None, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 500, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': 42, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': 0.7, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97       487
+           1       0.99      0.99      0.99       487
+           2       0.93      0.85      0.89       487
+           3       0.60      0.62      0.61       487
+           4       0.65      0.72      0.68       487
+           5       0.97      0.94      0.96       487
+
+    accuracy                           0.85      2922
+   macro avg       0.85      0.85      0.85      2922
+weighted avg       0.85      0.85      0.85      2922
+
